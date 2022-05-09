@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body{background:#FDE8FF; margin:0; padding:0; font-size:0.75em;}
+#wrap{width:971px; text-align:left; margin:0 auto; background-color:#FDE8FF; 
+min-height:780px;}
+
+#logo{float:left; width:180px; height:100px; margin:40px 0 0 40px;}
+
+nav#top_menu{float:right; margin:20px 64px 0 0;}
+nav#top_menu ul li{display:block; height:30px; float:left; font-family:Verdana; font-size:130%}
+nav#top_menu a{text-decoration:none; display:inline-block; width:100px; text-align:center;
+color:#6F0C78; font-weight:bold;}
+nav#top_menu a:hover{color:red; font-weight:bold;}
+
+nav#category_menu{margin:20px 0; float:right;}
+
+nav#category_menu{margin:20px 0; float:right;}
+nav#category_menu ul{list-style:none; font-family:Verdana;}
+nav#category_menu ul li{float:left; margin:0 15px; font-size:14pt;}
+nav#category_menu a{display:block; height:20px; text-decoration:none; color:#6F0C78;
+padding:10px;}
+nav#category_menu a:hover{background-image:url(../images/purple.gif);
+background-repeat:repeat-x; background-position:bottom;}
+
+.clear{clear:both;}
+
+footer{margin:10px 0 0 0; height:70px; background-image:url(../images/bottom_logo.png);
+background-repeat:no-repeat; backgound-position:60px center;}
+footer #copy{margin:5px 0 0 300px; width:600px; float:left;}
+
+#main_img{text-align:center;}
+#main_img img{margin:9px 0 0 0;}
+
+#bestProduct{border:solid 3px #FFFFFF; border-radius:10px; width:910; min-height:260px;
+background: #F4CBFA; padding:10px; text-align:center;}
+#item{width:200px; float:left; margin:0 13px; text-align:center;}
+#item img{width:190px; height:200px; border-radius:20px 20px 20px 20px; overflow:hidden;
+border:3px solid gray;}
+
+article h2, div h2{font-family:Verdana; font-size:30px; color:#6F0C78; padding-bottom:15px;
+border-bottom:1px dotted #666;}
+
+a{color:#F00; text-decoration:none;}
+a:hover{color:#F90; text-decoration:underline;}
+
+#sub_img{text-align:center;}
+#sub_img img{margin:9px 0 0 0;}
+#sub_menu{width:250px; float:left; margin:20px 0;}
+#sub_menu ul{margin:20px 0 0 16px; list-style:none;}
+#sub_menu a{text-decoration:none; color:#6F0C78; font-family:Verdana;
+font-weight:bold; font-size:16px; display:block; height:15px; width:160px;
+padding:7px; border-bottom:1px dotted #999; background-image:url(../images/bullet.gif);
+background-repeat:no-repeat; background-position:right center;}
+#sub_menu a:hover{background-image:url(../images/bullet_orange.gif);
+background-repeat:no-repeat; background-position:right center; color:#F90;
+font-weight:bold; font-size:16px; font-family: Arial, Helvetica, sans-serif;}
+
+article h1, div h1{font-family:Verdana; font-size:45px; color:#6F0C78;
+margin:20px 0; font-weight:normal;}
+article{float:right; width:680px; padding-right:10px; font-family:Verdava;
+font-size:1em; line-height:1.5em;}
+
+form{margin:10px 0 0 0; width:670px;}
+form fieldset{padding:10px 0 20px 5px; border:none;}
+form fieldset legend{font-size:20px; /* 제목으로 사용되기 때문에 크기를 크게 잡아줍니다. */
+border-bottom: 1px dotted #666; /* 제목 하단부에 점선을 넣어 제목이라는 것을 표시해줍니다 */ 
+width:600px; /* 전체 크기를 잡아줍니다 */
+padding:5px 0; /* 위와 아래로 여백을 주고 좌우로는 여백을 없앱니다. 여백을 안주게 되면 밑줄과 너무 붙어버려 보기 좋지 않습니다 */}
+form label{width:140px; /* 전체의 크기를 정의합니다 */
+	float:left; /* 왼쪽으로 이동시킵니다. */ margin:5px 0; /* 마진을 이용해서 상하로 간백을 줍니다 */}
+form input{margin:5px 0;/* label과 마찬가지로 여기도 동일하게 상하로 간격을 줍니다 */
+border:1px solid #999; /* input 박스의 테두리 모양을 정의해줍니다 */
+background-color:#FCFDEA; /* 배경색을 이용하여 바탕화면 색과 차별을 줍니다 */}
+form #button{margin:20px 0 0 0;}
+form .submit, form .cancel{height:30px; width:150px; border:1px solid #666;
+border-radius:10px; box-shadow:3px 3px 2px #ccc; font-size:14px;
+background-repeat:repeat-x; background-position: center center; color:#fff; margin:0 0 0 20px; }
+form .submit{background-image:url(../images/submit_back.jpg);}
+form .cancel{background-image:url(../images/cancel_back.jpg);}
+
+#itemdetail img{width:300px; margin-right:20px;}
+
+table#cartList{border-collapse:collapse; border-top:2px solid #333; border-bottom:1px solid #333;
+width:100%; margin-bottom:20px;}
+table#cartList th, td{border-bottom:1px dotted #333; text-align:center;}
+
+#kindProduct{border:solid 1px #FFFFFF; border-radius:10px; width:610px; min-height:900px;
+background:#ebebeb; padding:10px; text-align:center;}
+
